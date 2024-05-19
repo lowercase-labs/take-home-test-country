@@ -5,7 +5,6 @@ import Typography from "@mui/material/Typography";
 import NightlightRoundIcon from '@mui/icons-material/NightlightRound';
 import Box from '@mui/material/Box';
 
-import Home from "./home";
 
 
 
@@ -31,9 +30,9 @@ const Header =({darkMode,setDarkMode})=>{
             </Toolbar>
         </AppBar>
         </Box>
-        <Box sx={{ flexGrow: 1, margin:'20px' }}> 
+        {/* <Box sx={{ flexGrow: 1, margin:'20px' }}> 
             <Home></Home>
-        </Box>
+        </Box> */}
         </>
     )
 
